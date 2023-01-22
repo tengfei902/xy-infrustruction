@@ -1,0 +1,4 @@
+com/xy/infrustruction/definition/connection/ConnectInfo.class
+com/xy/infrustruction/definition/DbType.class
+com/xy/infrustruction/definition/connection/impl/RdbmsConnectInfo.class
+com/xy/infrustruction/definition/EnvType.class
