@@ -20,6 +20,7 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <xy-inf-definition-version>0.0.1-SNAPSHOT</xy-inf-definition-version>
+    <xy-inf-acl-version>0.0.1-SNAPSHOT</xy-inf-acl-version>
   </properties>
 
   <dependencies>
