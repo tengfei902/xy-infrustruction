@@ -1,5 +1,8 @@
 package com.xy.infrustruction.definition;
 
+import com.xy.infrustruction.definition.exceptions.DbTypeNotFoundException;
+import org.apache.commons.lang3.StringUtils;
+
 public enum DbType {
     //RDBMS
     MYSQL,
@@ -22,5 +25,14 @@ public enum DbType {
     ES,
     //GRAPH
     //HDFS
-    HIVE
+    HIVE;
+
+    public static DbType parse(String dbType) {
+        for(DbType type:DbType.values()) {
+            if(StringUtils.equalsIgnoreCase(dbType,type.name())) {
+                return type;
+            }
+        }
+        throw new DbTypeNotFoundException("db type not found:"+dbType);
+    }
 }

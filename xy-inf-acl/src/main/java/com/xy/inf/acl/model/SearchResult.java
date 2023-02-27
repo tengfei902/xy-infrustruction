@@ -6,9 +6,7 @@ import java.util.List;
 
 @Data
 public class SearchResult<T> {
-    private long totalHits;
-    private long offset;
-    private long limit;
+    private long totalHit;
     private List<T> records;
 
     public static <T> SearchResult<T> success(List<T> records) {

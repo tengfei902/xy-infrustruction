@@ -1,4 +1,5 @@
 /Users/tengfei/workspace/xy-infrustruction/xy-inf-acl/src/main/java/com/xy/inf/acl/model/SearchResult.java
 /Users/tengfei/workspace/xy-infrustruction/xy-inf-acl/src/main/java/com/xy/inf/acl/ACL.java
 /Users/tengfei/workspace/xy-infrustruction/xy-inf-acl/src/main/java/com/xy/inf/acl/impl/MySqlAcl.java
+/Users/tengfei/workspace/xy-infrustruction/xy-inf-acl/src/main/java/com/xy/inf/acl/model/SearchRequest.java
 /Users/tengfei/workspace/xy-infrustruction/xy-inf-acl/src/main/java/com/xy/inf/acl/impl/EsAcl.java

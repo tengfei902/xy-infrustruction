@@ -1,9 +1,8 @@
 package com.xy.inf.acl.impl;
 
 import com.xy.inf.acl.ACL;
-import com.xy.inf.acl.model.AclRequest;
+import com.xy.inf.acl.model.SearchRequest;
 import com.xy.inf.acl.model.SearchResult;
-import com.xy.inf.acl.model.SelectRequest;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.Map;
@@ -12,12 +11,12 @@ import java.util.Map;
 public class EsAcl implements ACL {
 
     @Override
-    public SearchResult<Map<String, Object>> select(SelectRequest selectRequest) {
+    public SearchResult<Map<String, Object>> select(SearchRequest searchRequest) {
         return null;
     }
 
     @Override
-    public int update(AclRequest request) {
+    public int update(SearchRequest request) {
         return 0;
     }
 
@@ -28,6 +27,11 @@ public class EsAcl implements ACL {
 
     @Override
     public String explain(String sql) {
+        return null;
+    }
+
+    @Override
+    public String showCreateTable(String table) {
         return null;
     }
 }
